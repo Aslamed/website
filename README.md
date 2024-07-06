@@ -1,2 +1,2 @@
 # website
-Face una bucata website.
+Learning how to do a website and use GIT.
