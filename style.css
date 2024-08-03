@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+h1 {
+    color: red;
+    border: 3px dashed blue; 
+    background-color: green;
+    width: 100px;
+    height: 200px;
+}
+
+p {
+    color: blue;
+    line-height: 1.6;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.3); /* Optional: Add a shadow effect */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
