@@ -3,7 +3,8 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    border: 2px solid red;
+    border: solid red;
+    height: 100%;
 }
 
 h1 {
@@ -14,10 +15,37 @@ h1 {
     height: 200px;
 }
 
+.copiii { /* asa se defineste o clasa */
+
+    background-color: pink;
+    border:solid green;
+    width: 300px;
+}
+
+#Alexandra{ /* asa se defineste un id*/
+
+    background-color: yellow;
+    width: 100px;
+}
+
+#Luca{
+    background-color: red;
+}
+
+#Teodora {
+    background-color: purple;
+}
+
+
 p {
     color: blue;
     line-height: 1.6;
-    
+    border: solid blue;
+    height: 20vh;
+    font-size: 30px;
+/*   px - pixel 
+     % - procent din elementul in care se afla p in cazul acest
+     vh - viewport height - adica inaltimea continutului paginii web.    */
 }
 
 button {
